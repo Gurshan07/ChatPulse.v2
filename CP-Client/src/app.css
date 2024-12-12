@@ -1,0 +1,108 @@
+.customTextField .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+    border-color: white;
+}
+
+.customTextField .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+   
+    border-color: rgb(105, 105, 105);
+}
+
+.customTextField .MuiInputLabel-root.Mui-focused{
+    color: rgb(255, 255, 255);
+    
+}
+
+
+#customTextFieldText{
+    color: white;
+}
+
+  .customTextField .MuiInputLabel-root {
+    color: rgb(85, 85, 85);
+}
+.customTextField .MuiOutlinedInput-root:not(:hover):not(.Mui-focused) .MuiOutlinedInput-notchedOutline {
+    border-color: #282828;
+}
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation3.css-vlqfi1-MuiPaper-root {
+  border: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-fullWidth.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-fullWidth.css-u7o4ud-MuiButtonBase-root-MuiButton-root {
+    background-color: transparent;
+    color: white;
+    transition: background-color 0.7s ease;
+    border: none;
+    border-color: transparent;
+    box-shadow: none;
+    font-weight: bold;
+  
+  }
+  
+  .MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-fullWidth.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-fullWidth.css-u7o4ud-MuiButtonBase-root-MuiButton-root:hover {
+    background-color: rgb(57, 57, 57);
+    color: white;    
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  .scrollable-container {
+    overflow-y: auto;
+    height: 100vh;  
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  audio::-webkit-media-controls-panel {
+    background-color:  rgb(138, 145, 165,0.5);
+  }
+
+    .MuiTablePagination-toolbar {
+      min-height: 52px;
+      padding-right: 2px;
+      color: white;
+    }
+   
+    .MuiTablePagination-toolbar .MuiSvgIcon-root {
+      color: white;
+    }
+.MuiDataGrid-root .MuiDataGrid-scrollbarFiller {
+  min-width: calc(var(--DataGrid-hasScrollY)* var(--DataGrid-scrollbarSize));
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background-color: #0f121a;
+  color: white;
+}
+.MuiDataGrid-root .MuiDataGrid-filler {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #0f121a;
+}
+
+.MuiDataGrid-columnHeaderTitleContainer svg {
+  fill: white;  
+}
+
+@media (hover: hover) {
+  .MuiDataGrid-root .MuiDataGrid-columnHeaders:hover .MuiDataGrid-columnSeparator {
+      visibility: visible;
+      width: auto;
+      color: white;
+  }
+}
+
